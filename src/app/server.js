@@ -7,7 +7,7 @@ import { env } from "../config/enviroment.js";
 
 // SETTINGS
 const app = express();
-app.set("port", env.PORT || 3000);
+app.set("port", env.PORT);
 
 // MIDDLEWARES
 app.use(morgan("dev"));
