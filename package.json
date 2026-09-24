@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "author": "Luis Fuentes <luisrf0540@gmail.com>",
+  "author": "Luis Fuentes <lfuentes@ucab.edu.ve>",
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index",
     "start:dev": "node --watch src/index"
   },
